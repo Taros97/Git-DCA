@@ -1,14 +1,13 @@
-CC      = gcc
-CFLAGS  = -g
-RM      = rm -f
+# Practica 10 DCA Github
 
+## Alias
+Definidos en el fichero de configuración (`~/.gitconfig`)
+ - Globales
+   - `git config --global alias.st status`
+   - `git config --global alias.br branch`
+ - Locales
+   - `com = "!git add -A && git commit -m "`
 
-default: all
+## Bisect
 
-all: Hello
-
-Hello: Hola_Mundo_Bisect.c
-	$(CC) $(CFLAGS) -o Hola_Mundo Hola_Mundo_Bisect.c
-
-clean veryclean:
-	$(RM) Hello
+Se ha realizado un Bisect buscando un "error" en el codigo, en este ejemplo el error es representado por un "Adios Mundo" en un programa que imprime muchos "Hola Mundo"
