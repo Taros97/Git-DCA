@@ -11,3 +11,6 @@ Definidos en el fichero de configuración (`~/.gitconfig`)
 ## Bisect
 
 Se ha realizado un Bisect buscando un "error" en el codigo, en este ejemplo el error es representado por un "Adios Mundo" en un programa que imprime muchos "Hola Mundo"
+
+![Bisect 1](Bisect_Ejemplo_1.png)
+![Bisect 1](Bisect_Ejemplo_2.png)
